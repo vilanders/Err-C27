@@ -18,9 +18,13 @@ class Gustav {
         push(); 
         translate(this.x, this.y); 
         rotate(this.angle); 
-        rect(-10, -20, this.width, this.height); 
+        rect(-10, -20, this.width, this.height);  // este es el disparador. 
         pop(); 
-        arc(this.x - 30, this.y + 90, 60, 180, PI, TWO_PI); 
+        arc(this.x - 30, this.y + 90, 60, 180, PI, TWO_PI);  // esta es la base del cañon 
+        // x
+        // y
+        // base ancho = 80
+        // altura =100
         noFill();
     }
 }
